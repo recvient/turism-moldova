@@ -20,3 +20,4 @@ turism-moldova/
 ## Versiuni
 
 - **1.0** - prima publicare pe GitHub Pages.
+- **1.1** - adăugat obiectivul Mănăstirea Țipova: secțiune nouă pe pagina principală, imagine nouă (`img/manastirea-tipova.jpg`), rând nou în tabelul de pe pagina Despre, data ultimei actualizări în subsol.
