@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina de contact a site-ului Descoperă Moldova">
+    <title>Descoperă Moldova - Contact</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Descoperă <span>Moldova</span></a>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="despre.html">Despre</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <div class="container">
+                <h1>Contact</h1>
+                <p>Ai o întrebare sau o sugestie? Scrie-ne!</p>
+            </div>
+        </section>
+
+        <div class="container contact-layout">
+
+            <section class="section">
+                <h2>Trimite un mesaj</h2>
+
+                <!-- Formularul nu trimite date la server, se verifică doar câmpurile -->
+                <form action="#" method="get" class="contact-form">
+                    <div class="form-group">
+                        <label for="nume">Nume și prenume</label>
+                        <input type="text" id="nume" name="nume" placeholder="Ex: Ion Popescu" minlength="3" autocomplete="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="exemplu@mail.com" autocomplete="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subiect">Subiect</label>
+                        <select id="subiect" name="subiect">
+                            <option value="intrebare">Întrebare</option>
+                            <option value="traseu">Sfat pentru traseu</option>
+                            <option value="sugestie">Sugestie</option>
+                            <option value="altceva">Altceva</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mesaj">Mesaj</label>
+                        <textarea id="mesaj" name="mesaj" rows="6" placeholder="Scrie mesajul aici..." minlength="10" required></textarea>
+                    </div>
+
+                    <div class="form-buttons">
+                        <button type="submit" class="btn">Trimite</button>
+                        <button type="reset" class="btn btn-light">Șterge</button>
+                    </div>
+                </form>
+            </section>
+
+            <aside class="section contact-info">
+                <h2>Date de contact</h2>
+                <ul>
+                    <li><strong>Oraș:</strong> Chișinău, Republica Moldova</li>
+                    <li><strong>E-mail:</strong> info@descopera-moldova.md</li>
+                    <li><strong>Program:</strong> luni - vineri, 9:00 - 17:00</li>
+                </ul>
+                <img src="img/arcul-de-triumf.jpg" alt="Arcul de Triumf din Chișinău într-o zi însorită">
+                <p><em>Răspundem la mesaje în cel mult două zile lucrătoare.</em></p>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Descoperă Moldova. Realizat de: Starciuc Alexandra, grupa RC-25</p>
+            <p>Disciplina: Dezvoltarea paginilor Web</p>
+        </div>
+    </footer>
+
+</body>
+</html>
